@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- Navbar (same as above) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="image/india-cements-logo.png" alt="India Cements Logo" style="height: 80px; width: auto; margin-right: 8px;">
+                <span>The India Cements</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-nav-white" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home </a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="enquiry.html">Enquiry Now!!</a></li>>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container py-5">
+        <div class="row">
+            <!-- Product Image -->
+            <div class="col-md-6">
+                <img src="image/coramandel king.jpg" class="img-fluid rounded shadow" alt="Coromandel King">
+            </div>
+    
+            <!-- Product Information -->
+            <div class="col-md-6">
+                <h2>Coromandel Cement</h2>
+                <p class="text-muted">Price: ₹580 per bag</p>
+                <p>Coromandel Cement is a well-established brand known for its superior quality and performance. It's ideal for heavy construction projects and delivers excellent strength and durability, making it suitable for both residential and commercial construction.</p>
+                
+                <!-- Product Specifications -->
+                <h5>Specifications:</h5>
+                <ul>
+                    <li>High compressive strength and stability</li>
+                    <li>Excellent resistance to harsh weather conditions</li>
+                    <li>Eco-friendly and sustainable manufacturing process</li>
+                    <li>Smooth finish and optimal workability</li>
+                </ul>
+                
+                <!-- Quantity and Add to Cart -->
+                <div class="d-flex align-items-center my-3">
+                    <label for="quantity" class="me-2">Quantity (bags):</label>
+                    <input type="number" id="quantity" class="form-control" value="1" min="1" style="width: 80px;">
+                </div>
+                <button class="btn btn-primary" onclick="buyNow()">Buy Now</button>
+            </div>
+        </div>
+    </section>
+     <!-- Similar Products Section -->
+     <section class="container py-5">
+        <h3>Similar Products</h3>
+        <div class="row">
+            <!-- Similar Product 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/sankar bag.jpg" class="card-img-top" alt="Sankar Super Power">
+                    <div class="card-body">
+                        <h5 class="card-title">Sankar Super Power</h5>
+                        <p class="text-muted">Price: ₹420 per bag</p>
+                        <a href="sankar super-details.html" class="btn btn-outline-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Similar Product 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="image/conkrete super king.jpg" class="card-img-top" alt="Conkrete Super King">
+                    <div class="card-body">
+                        <h5 class="card-title">Conkrete Super King</h5>
+                        <p class="text-muted">Price: ₹460 per bag</p>
+                        <a href="concret-king.html" class="btn btn-outline-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Footer -->
+    <!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row">
+            <!-- About Section -->
+            <div class="col-md-4">
+                <h5>About India Cements</h5>
+                <p>Founded in 1946, India Cements is a leading cement manufacturing company in India. With a commitment to quality and innovation, India Cements is a trusted name in the construction industry, contributing significantly to the growth and infrastructure development across India.</p>
+            </div>
+            
+            <!-- Contact Section -->
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>India Cements Limited<br>
+                    “Dhun Building”, 827, Anna Salai, Chennai - 600 002, Tamil Nadu, India</p>
+                <p>Phone: +91 44 2852 1526</p>
+                <p>Email: <a href="mailto:corp.office@indiacements.co.in" class="text-white">corp.office@indiacements.co.in</a></p>
+            </div>
+            
+            <!-- Social Media Links -->
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <p>Stay connected through our social media channels.</p>
+                <a href="https://www.facebook.com/indiacements" target="_blank" class="text-white me-3"><i class="bi bi-facebook"></i> Facebook</a><br>
+                <a href="https://twitter.com/indiacements" target="_blank" class="text-white me-3"><i class="bi bi-twitter"></i> Twitter</a><br>
+                <a href="https://www.linkedin.com/company/india-cements" target="_blank" class="text-white me-3"><i class="bi bi-linkedin"></i> LinkedIn</a><br>
+                <a href="https://www.youtube.com/user/IndiaCementsLtd" target="_blank" class="text-white"><i class="bi bi-youtube"></i> YouTube</a>
+            </div>
+        </div>
+        
+        <!-- Footer Bottom -->
+        <div class="text-center mt-4">
+            <p>&copy; 2024 India Cements. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<script>
+    function buyNow()
+    {
+        window.location.href = 'payment.html';  
+    }
+</script>
+
+
+<!-- Bootstrap Icons CDN for Social Media Icons -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+
+</body>
+</html>
+    
